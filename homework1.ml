@@ -1,28 +1,3 @@
-(* 
-
-HOMEWORK 1
-
-Name: Athmika Senthikumar
-
-Email: athmika.senthilkumar@students.olin.edu
-
-Remarks, if any:
-
-*)
-
-
-(*
- *
- * Please fill in this file with your solutions and submit it
- *
- * The functions below are stubs that you should replace with your
- * own implementation.
- *
- * Always make sure you can #use this file before submitting it.
- * It has to load without any errors.
- *
- *)
-
 
 
 (* Question 1 *)
