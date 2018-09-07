@@ -1,41 +1,4 @@
-(* 
 
-HOMEWORK 5
-
-Name: Athmika Senthilkumar
-
-Email: athmika.senthilkumar@students.olin.edu
-
-Remarks, if any:
-
-*)
-
-
-
-
-(*
- *
- * Please fill in this file with your solutions and submit it
- *
- * The functions below are stubs that you should replace with your
- * own implementation.
- *
- * Always make sure you can #use this file before submitting it.
- * Do that in a _fresh_ OCaml shell 
- * It has to load without any errors.
- *
- *)
-
-
-
-
-(* 
- * String <-> characters utility functions:
- *
- *   explode : string -> string list
- *      returns the list of characters making up a string
- *
- *)
 
 let explode str = 
   let rec acc index result = 

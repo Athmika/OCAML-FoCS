@@ -1,38 +1,4 @@
-(* 
 
-HOMEWORK 6
--
-Name: Athmika Senthilkumar
-
-Email: athmika.senthilkumar@students.olin.edu
-
-Remarks, if any:
-
-*)
-
-
-(*
- *
- * Please fill in this file with your solutions and submit it
- *
- * The functions below are stubs that you should replace with your
- * own implementation.
- *
- * PLEASE DO NOT CHANGE THE TYPES IN THE STUBS I GIVE YOU. 
- * Doing so risks make it impossible to test your code.
- *
- * Always make sure you can #use this file before submitting it.
- * Do that in a _fresh_ OCaml shell 
- * It has to load without any errors.
- *
- *)
-
-
-
-(*************************************************************
- * Binary trees
- *
- *)
    
 type 'a bintree =
   | Empty

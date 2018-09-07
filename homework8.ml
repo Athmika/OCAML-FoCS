@@ -1,43 +1,4 @@
-(* 
 
-HOMEWORK 8
-
-Name: Athmika Senthilkumar
-
-Email: athmimka.senthilkumar@students.olin.edu
-
-Remarks, if any:
-
-*)
-
-
-
-(*
- *
- * Please fill in this file with your solutions and submit it
- *
- * The functions below are stubs that you should replace with your
- * own implementation.
- *
- * PLEASE DO NOT CHANGE THE TYPES IN THE STUBS I GIVE YOU. 
- * Doing so risks make it impossible to test your code.
- *
- * Always make sure you can #use this file before submitting it.
- * Do that in a _fresh_ OCaml shell 
- * It has to load without any errors.
- *
- *)
-
-
-
-
-
-(* 
- * The implementation of parsing and simplication of lambda terms
- *
- * I've isolated it away into a module that you don't need to peer into
- *
- *)
 
 module Lambda = struct
 

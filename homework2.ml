@@ -1,33 +1,4 @@
-(* 
 
-HOMEWORK 2
-
-Name: Athmika Senthilkumar
-
-Email: athmika.senthilkumar@students.olin.edu
-
-Remarks, if any:
-
-*)
-
-
-(*
- *
- * Please fill in this file with your solutions and submit it
- *
- * The functions below are stubs that you should replace with your
- * own implementation.
- *
- * Always make sure you can #use this file before submitting it.
- * It has to load without any errors.
- *
- *)
-
-
-
-
-
-   (* Q1: Set functions *)
 
 let rec inS e xs = 
 	match xs with
@@ -91,11 +62,6 @@ let rec concatL n xs ys =
     | [] -> []
     | head::tail-> atMost n (unionS (concatLHelper1 head ys) (concatL n tail ys))
 
-(*let rec recursiveConcat n xs = 
-	if xs = [] then [] else unionL n (concatL n xs xs) (recursiveConcat n (concatL n xs xs))*)
-
-(*let rec starLHelper n xs xs' = 
-	 if xs=[] then [] else concatL(n xs xs') *)
 
 let rec starL n xs = 
 	if (n=0 || xs = []) then [""] else  (unionL n (""::xs) (concatL n xs (starL (n-1) xs)))
